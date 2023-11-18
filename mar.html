@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAR Record</title>
+    <style>
+        table,th,td,tr{
+            border: 2px solid black;
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1> MAR Record </h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="stu_id">Student Id</label>
+        <input type="text" id="stu_id" placeholder="JIS/2023/0000">
+        <br><br><br><br>
+        <fieldset id="document">
+            <legend>
+                Certification
+            </legend>
+            <label for="Activity">Activity Done</label>
+            <input type="text" id="Activity" placeholder=" ex: Tree Plantation">
+            <br><br>
+            <label for="credit">Credit Point Earned</label>
+            <input type="number" max="10" min="0" placceholder="max credit=10">
+            <br><br>
+            <input type="button" value=" Upload Document">
+        </fieldset>
+        <br><br><br>
+        </form>
+        <a href="mar_s_result.html" target="_self"><input type="submit" vaue="submit"></a>
+</body>
+</html>

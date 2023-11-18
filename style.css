@@ -1,0 +1,39 @@
+nav{
+    text-align: center;
+    background-color: orange;
+    padding: 3rem;
+}
+.Att{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /*justify-content: center;*/
+    background-color: azure;
+    padding: 3rem;
+    flex-wrap: wrap;
+    height:21rem;
+}
+/*.MAR{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: azure;
+    padding: 3rem;
+    flex-wrap: wrap;
+}*/
+a{
+    border: 7px solid salmon;
+    border-radius: 3px ;
+    background-color: salmon;
+    text-decoration: none;
+    color: black;
+    padding:3px;
+}
+footer{
+    background-color: rgba(237, 234, 234,1);
+    padding: 4rem;
+    padding-left: 0rem;padding-bottom: 0rem;
+    display: flex;
+    align-content:baseline;
+    flex-wrap: wrap;
+}
